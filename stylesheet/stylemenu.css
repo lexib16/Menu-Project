@@ -16,9 +16,9 @@ body, h1, h2, h3, p {
   
   /* header style */
   header {
-    background-color: #D0F4EA;
-    color: #829399;
-    text-align: center;
+    background-color: rgb(250, 187, 135);
+    color: whitesmoke;
+    text-align: center; 
     padding: 20px 0;
   }
   
@@ -37,7 +37,7 @@ body, h1, h2, h3, p {
   
   nav a {
     text-decoration: none;
-    color: #829399;
+    color: #030c10;
     font-weight: bold;
   }
   
@@ -46,12 +46,13 @@ body, h1, h2, h3, p {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #e7dddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   main h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family 'Bebas Neue', sans-serif;
+
   }
   
   section {
@@ -62,8 +63,8 @@ body, h1, h2, h3, p {
   .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: rgb(28, 28, 27);
+    color: #f18c55;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -71,14 +72,14 @@ body, h1, h2, h3, p {
   }
   
   .btn:hover {
-    background-color: #555;
+    background-color: #f9f2f200;
   }
   
   /* footer style*/
   footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #D0F4EA;
+    background-color: #404c4858;
     color: #829399;
   }
   
@@ -98,13 +99,13 @@ body, h1, h2, h3, p {
   textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ccccccbb;
     border-radius: 5px;
   }
   
   input[type="submit"] {
-    background-color: #333;
-    color: #fff;
+    background-color: #2f3030;
+    color: #f09663;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
